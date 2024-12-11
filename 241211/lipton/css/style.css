@@ -1,0 +1,46 @@
+*{
+    margin:  0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../img/fresh-spring-background.jpg);
+    min-height: 100vh;/*body'nin minimum yüksekliğini ekran yüksekliğini kadar ayarlar */
+    background-size: cover;/*resmin ekran kapsaması için kullanılır*/
+}
+#logo img{
+    width:150px;
+}
+.container{
+    margin: auto;
+    width: 70%;
+}
+#logo{
+    text-align: center;
+    padding: 24px;
+}
+#menu li{
+    display: inline-block;
+}
+#menu{
+    background-color:wheat;
+    box-shadow: 0 0 5px #95a5a6;/*ilk iki değer konum, 5px kalınlık be gölgelik vermek için kullanılır*/
+    text-align: center;/*içerisindeki metin ortalamak için kullanılır*/
+}
+#menu a{
+    display: inline-block;
+    padding: 10px 80px;/*ilk değer üstten alttan değer vermek için 10px__ikinçi değer sağdan soldan değer vermek için 80px*/
+    color:red;
+    text-decoration: none;/*bağlatının alt çizgisini kaldırmak için kullanılır.*/
+    font-weight: bold;/*yazıyı kalınlaştırmak için kullanılır.*/
+    font-family: sans-serif;/*tırnaksız yazı yazdırmak için kullanılır.  cv*/
+    transition: 1s;/*menünün üstüne gelindiğinde çıkışı yavaşlatmak için kullanılır.*/
+}
+#menu a:hover{
+    background-color:darkgrey;
+    color:black;
+    transition: 1s;/*menünün üstüne gelindiğinde geçişi yavaşlatmak için kullanılır.*/
+    
+}
+/*flex ile yapılabilir footer kısmı ödev*/
