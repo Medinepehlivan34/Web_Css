@@ -1,0 +1,88 @@
+/*Genel Biçimlendirme*/
+*{
+    margin: 0;
+    padding: 0;
+
+    /*Genişlik ve yüksekliğe border ve padding dahil */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway", serif;
+    font-family: 400;
+}
+
+/*header bölümü*/
+header{
+    background-color: #004060;
+    color: #fff;/*yazı rengi*/
+    padding:30px 0px; /*üstten alttan 30px*/
+    text-align: center; /*yazıyı ortalamak için kullanılır*/
+}
+
+header ul{
+    display: flex;/*içindeki neslener esnek oldu*/
+    justify-content: center;/*içeriği hizalama*/
+    list-style: none;
+}
+
+#menu a{
+    display: block;
+    color: #fff;/*linkin yazı rengi*/
+    text-decoration: none;/*linkin yazı altındaki cizgi kaldıırıldı*/
+    padding:16px 8px 0 8px;
+    
+}
+
+/*main bölümü*/
+main{
+    display: flex;
+    gap:16px ;/*içindeki itemler aralarında boşluk bırakmak*/
+    padding:16px;/*iç boşluk*/ margin: 16px;/*dış boşluk*/
+    border:2px solid #034a6b;
+    border-radius: 5px;
+
+}
+
+main .content{
+    flex: 10;
+    background-color:#8db9ca;
+    padding: 16px;/*iç boşluk*/
+    
+}
+
+main aside{
+    flex: 2;
+    background-color:#8db9ca;
+    padding: 16px;/*iç boşluk*/
+
+}
+
+section h2{
+    margin-bottom: 5px;
+}
+
+section p{
+    margin-bottom: 10px;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside a{
+    color: #001a24;
+    line-height: 150%;
+}
+
+/*footer bölümü*/
+footer{
+    background-color: #004060;
+    color: #fff;/*yazı rengi*/
+    padding:30px 0px; /*üstten alttan 30px*/
+    text-align: center; /*yazıyı ortalamak için kullanılır*/
+}
+.ayrac{
+    margin: 10px auto;
+    border-bottom: 1px solid  #b3e0f1;
+}
